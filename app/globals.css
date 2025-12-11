@@ -24,3 +24,10 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* small UI helpers */
+html, body, #__next {
+  height: 100%;
+}
+img { display: block; max-width: 100%; }
+.bg-gradient-hero { background: linear-gradient(90deg,#16a34a,#059669); }
